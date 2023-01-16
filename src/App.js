@@ -1,6 +1,7 @@
 import LikeButton from './components/Iteration8';
 import ClickablePicture from './components/Iteration9';
 import Dice from './components/Iteration10';
+import Carrousel from './components/Iteration11';
 import './App.css';
 
 
@@ -18,6 +19,16 @@ function App() {
 
       <h3>Iteration 10</h3>
       <Dice />
+
+      <h3>Iteration 11</h3>
+      <Carrousel 
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}
+      />
 
     </div>
   );
