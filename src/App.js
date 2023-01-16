@@ -32,10 +32,12 @@ function App() {
         ]}
       />
       
-      <h3>Iteration 12</h3>
+      {/* <h3>Iteration 12</h3>
       <NumbersTable
         limit={12}
-      />
+      /> */}
+
+      
 
 
     </div>
