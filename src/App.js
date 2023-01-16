@@ -2,7 +2,8 @@ import LikeButton from './components/Iteration8';
 import ClickablePicture from './components/Iteration9';
 import Dice from './components/Iteration10';
 import Carrousel from './components/Iteration11';
-import NumbersTable from './components/Iteration12';
+// import NumbersTable from './components/Iteration12';
+import FaceBook from './components/Iteration13';
 import './App.css';
 
 
@@ -37,7 +38,8 @@ function App() {
         limit={12}
       /> */}
 
-      
+      <h3>Iteration 13</h3>
+      <FaceBook />
 
 
     </div>
