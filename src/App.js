@@ -4,7 +4,9 @@ import Dice from './components/Iteration10';
 import Carrousel from './components/Iteration11';
 // import NumbersTable from './components/Iteration12';
 import FaceBook from './components/Iteration13';
+import SignUp from './components/Iteration15';
 import './App.css';
+
 
 
 
@@ -38,8 +40,11 @@ function App() {
         limit={12}
       /> */}
 
-      <h3>Iteration 13</h3>
+      <h3>Iteration 13 + 14</h3>
       <FaceBook />
+
+      <h3>Iteration 15</h3>
+      <SignUp />
 
 
     </div>
